@@ -1,0 +1,395 @@
+.navUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff9cb5;
+    height: 80px
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #ffe9ef;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  li a:hover {
+    background-color: #b8445e;
+  }
+  img {
+    opacity: 0.5;
+  }
+
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* Changed to white for better contrast */
+    font-size: 48px; /* Increased font size */
+    font-weight: bold; /* Makes text bolder */
+    text-align: center; /* Ensures text is centered */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds shadow for better visibility */
+    background: rgba(0, 0, 0, 0.3); /* Optional: Adds a semi-transparent background */
+    padding: 20px; /* Adds spacing inside the background */
+    border-radius: 10px; /* Softens the edges of the background */
+}
+
+.icon-container {
+  position: absolute;
+  top: 7%; /* Adjust to move it up/down */
+  left: 11%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 40px; /* Space between icons */
+}
+
+/* Individual Icons */
+.icon-box {
+  text-align: left;
+  color: white;
+  font-size: 24px;
+}
+
+.icon-box i {
+  font-size: 30px; /* Make icons bigger */
+  margin-bottom: 10px;
+  color: #ffffff; /* Change color to match theme */
+}
+
+.text-icon{
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner-text {
+      position:absolute;
+      font-size: 8px;
+      top: 3%;
+      left: 17%;
+      transform: translate(-50,-50%);
+      color:#ffffff
+  }
+
+  .icon-container {
+      top: 70%; /* Adjust position for smaller screens */
+      flex-direction: column; /* Stack icons on smaller screens */
+  }
+
+  .icon-box i {
+      font-size: 1px;
+      color:#ff9cb5;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+}
+
+/*bmi coquette styles vibes font*/
+
+/* General Body Styling */
+body {
+  background-color: #ffe6eb;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  color: #333;
+}
+.ban-image {
+  width:100%;
+  height: 900px
+}
+
+/* Coquette Title */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d6336c;
+}
+
+/* Form Styling */
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 5px;
+  width: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bf2d5e;
+}
+
+/* Result Text */
+#result {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  color: #5a294c;
+}
+
+/* Wrapper with pink border and rounded corners */
+.bmi-wrapper {
+  border: 3px solid #f4a4c8;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff0f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Add space around the form */
+form {
+  margin: 0;
+}
+
+/* Little pink bows on corners using pseudo-elements */
+.bmi-wrapper::before,
+.bmi-wrapper::after {
+  content: "🎀";
+  font-size: 22px;
+  position: absolute;
+  color: #d6336c;
+}
+
+.bmi-wrapper::before {
+  top: -15px;
+  left: -10px;
+}
+
+.bmi-wrapper::after {
+  bottom: -15px;
+  right: -10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group label {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*calculate box with rounded corners*/
+
+.result-box{
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background-color: #ffeaf4;
+  border: 2px solid #f4a4c8;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  color: #5a294c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*cute bow on top right corner*/
+.result-box::after {
+  content: "🎀";
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-size: 20px;
+  color: #d6336c;
+}
+
+/*contact page*/
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff0f5;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #d6336c;
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #f4a4c8;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.contact-info label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5a294c;
+}
+
+.contact-info input {
+  padding: 12px 16px;
+  border: 2px solid #f4a4c8;
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+  width: 250px;
+  background-color: #fff0f5;
+}
+
+
+.contact-form button {
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #bf2d5e;
+}
+
+/*about us*/
+
+.about-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #fff0f5;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-container h1 {
+  font-family: 'Playfair Display', serif;
+  color: #d6336c;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #5a294c;
+}
+
+/*nutrition*/
+
+.nutrition-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.nutrition-list li {
+  background-color: #ffeaf4;
+  border: 2px solid #f4a4c8;
+  border-radius: 15px;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #5a294c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tip-list {
+  position: relative;
+  z-index: 1;
+}
+
+.nutrition-note{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #5a294c;
+}
+
+.nutrition-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fitness-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fitness-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.fitness-list li {
+  background-color: #ffeaf4;
+  border: 2px solid #f4a4c8;
+  border-radius: 15px;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #5a294c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}

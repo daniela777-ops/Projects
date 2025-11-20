@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <script defer src="script.js"></script>
+
+    
+  </head>
+  <body>
+  
+    <ul class="navUl">
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./BMI.html">BMI</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./aboutus.html">About</a></li>
+      </ul>
+    <h1>BMI Calculator</h1>
+    <div class="bmi-wrapper">
+      <form id="bmiForm">
+    <div class="input-group"></div>
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" required>
+      
+      <div class="input-group"></div>
+      <label for="height">Height (cm):</label>
+      <input type="number" id="height" required>
+      
+      <button type="submit">Calculate</button>
+    </form>
+  </div>
+  <div class="result-box">
+    <p id="result"></p>
+  </div>
+</body>
+</html>
+
