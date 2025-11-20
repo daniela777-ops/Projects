@@ -1,1 +1,5 @@
-The goal of this project is to create a simple, responsive, and beautifully styled health-focused website featuring a BMI calculator, wellness tools, and a coquette-inspired design. Everything here - from the layout to the logic and styling - was created with care using HTML, CSS, and JavaScript. 💻
+Description: The goal of this project is to create a simple, responsive, and beautifully styled health-focused website featuring a BMI calculator, wellness tools, and a coquette-inspired design. 
+
+Tech Tools: VS Code, HTML, CSS, JavaScript.
+
+Status: Completed.
