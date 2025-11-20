@@ -1,5 +1,5 @@
-A front-end web app prototype exploring the concept of a personal AI companion.
+Description: A front-end web app prototype exploring the concept of a personal AI companion.
 
-Tech Stack: HTML, CSS, JavaScript (VS Code + Live Server)
+Tech Tools: HTML, CSS, JavaScript (VS Code + Live Server).
 
-Status: Prototype / Concept
+Status: Prototype / Concept.
